@@ -24,7 +24,7 @@ ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
 }
 
 ul li a:hover {
@@ -43,24 +43,28 @@ body {
 /* TÍTULOS E TEXTOS */
 h1 {
     color: green;
-    font-size: 4vw;   /* reduzido para evitar esticamento */
+    font-size: 3vw;
 }
 
 h2 {
     color: blue;
-    font-size: 3vw;
+    font-size: 2.2vw;
 }
 
 h3 {
     color: midnightblue;
-    font-size: 2.3vw;
+    font-size: 1.8vw;
 }
 
 p {
-    font-size: 1.8vw;  /* reduzido – antes estava muito grande */
+    font-size: 1.2vw;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* IMAGENS */
@@ -79,7 +83,7 @@ table {
 }
 
 th, td {
-    font-size: 1.8vw;  /* ajustado */
+    font-size: 1.2vw;;  /* ajustado */
     padding: 1vw;
     border: 1px solid #ccc;
 }
