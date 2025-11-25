@@ -1,87 +1,93 @@
-header{
-    background-color:black;
+header {
+    background-color: black;
     padding: 1vw;
-    text-align:center;
-    
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+    text-align: center;
 }
 
+/* MENU */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
 ul li {
-  float: left;
+    float: left;
 }
 
 ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    font-size: 1.8vw;
 }
 
 ul li a:hover {
-  background-color:green;
+    background-color: green;
 }
 
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: floralwhite;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:floralwhite;
-    max-width: 1200px;   /* limite máximo */
-    margin: 0 auto;      /* centraliza a página */
-    padding: 0 20px;     /* evita colar nas bordas */
+/* TÍTULOS E TEXTOS */
+h1 {
+    color: green;
+    font-size: 4vw;   /* reduzido para evitar esticamento */
 }
 
-h1{
-    color:green;
-    font-size: 6vw;
+h2 {
+    color: blue;
+    font-size: 3vw;
 }
-h2{
-    color:blue;
-    font-size: 4vw;
+
+h3 {
+    color: midnightblue;
+    font-size: 2.3vw;
 }
-h3{
-    color:midnightblue;
-    font-size: 3vw;;
+
+p {
+    font-size: 1.8vw;  /* reduzido – antes estava muito grande */
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-p{
-    font-size: 2.5vw;
-    text-align:justify;
-    margin-left:10px;
-    margin-right:10px;
-}
-img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+
+/* IMAGENS */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     height: auto;
 }
-table{
+
+/* TABELAS */
+table {
     width: 100%;
     border-collapse: collapse;
-    width:100%;
 }
-th{
-    font-size: 2.2vw;
+
+th, td {
+    font-size: 1.8vw;  /* ajustado */
     padding: 1vw;
     border: 1px solid #ccc;
-    background-color:lightgray;
-    
-}  
-td{
-    font-size: 2.2vw;
-    padding: 1vw;
-    border: 1px solid #ccc;
-    text-align:center;
 }
-a{
-    text-decoration:none;
-    color:black;
+
+th {
+    background-color: lightgray;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: black;
 }
