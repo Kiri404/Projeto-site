@@ -97,3 +97,24 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/*MOBILE*/
+@media (max-width: 600px) {
+
+    h1 { font-size: 8vw; }
+    h2 { font-size: 6vw; }
+    h3 { font-size: 5vw; }
+
+    p {
+        font-size: 4vw;
+    }
+
+    th, td {
+        font-size: 4vw;
+    }
+
+    ul li a {
+        font-size: 4.5vw;
+        padding: 3vw 4vw;
+    }
+}
