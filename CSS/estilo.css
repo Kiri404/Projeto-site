@@ -1,6 +1,6 @@
 header{
     background-color:black;
-    padding: 4px;
+    padding: 1vw;
     text-align:center;
     
 ul {
@@ -36,18 +36,18 @@ body{
 }
 h1{
     color:green;
-    font-size:24px;
+    font-size: 6vw;
 }
 h2{
     color:blue;
-    font-size:20px;
+    font-size: 4vw;
 }
 h3{
     color:midnightblue;
-    font-size:18px;
+    font-size: 3vw;;
 }
 p{
-    font-size:16px;
+    font-size: 2.5vw;
     text-align:justify;
     margin-left:10px;
     margin-right:10px;
@@ -60,16 +60,22 @@ img{
     height: auto;
 }
 table{
+    width: 100%;
+    border-collapse: collapse;
     width:100%;
 }
 th{
+    font-size: 2.2vw;
+    padding: 1vw;
+    border: 1px solid #ccc;
     background-color:lightgray;
-    padding:10px;
-    font-size:18px;
+    
 }  
 td{
+    font-size: 2.2vw;
+    padding: 1vw;
+    border: 1px solid #ccc;
     text-align:center;
-    padding:8px;
 }
 a{
     text-decoration:none;
