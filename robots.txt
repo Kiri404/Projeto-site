@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kiri404.github.io/Projeto-site/sitemap.xml
