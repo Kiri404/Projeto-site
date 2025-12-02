@@ -83,7 +83,7 @@ table {
 }
 
 th, td {
-    font-size: 1.2vw;;  /* ajustado */
+    font-size: 1.2vw;
     padding: 1vw;
     border: 1px solid #ccc;
 }
@@ -94,6 +94,7 @@ th {
 
 /* LINKS */
 a {
+    font-size: 1.2vw;
     text-decoration: none;
     color: black;
 }
@@ -117,4 +118,5 @@ a {
         font-size: 4.5vw;
         padding: 3vw 4vw;
     }
+
 }
