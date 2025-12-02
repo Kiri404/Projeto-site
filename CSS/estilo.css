@@ -94,9 +94,9 @@ th {
 
 /* LINKS */
 a {
-    font-size: 1.2vw;
+    font-size: 1.6vw;
     text-decoration: none;
-    color: black;
+    color: lightgray;
 }
 
 /*MOBILE*/
@@ -120,3 +120,4 @@ a {
     }
 
 }
+
